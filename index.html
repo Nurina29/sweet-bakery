@@ -1,10 +1,208 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sweet Bakery</title>
+<meta charset="utf-8">
+<title>Sweet Bakery | PT Roti Nusantara</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Sweet Bakery: Roti lembut dengan kemasan inovatif Biopang" />
+<meta name="author" content="PT Roti Nusantara" />
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff9f7;
+    color: #4d3a2f;
+  }
+  .navbar-default {
+    background-color: #e6d3f5;
+    border-color: #d2b48c;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #4d3a2f;
+  }
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #8c5e3c;
+  }
+  h1, h2, h3, h4 {
+    color: #5a3d29;
+  }
+  .media-heading {
+    color: #7e4e24;
+  }
+  #banner, #services, #events, .aboutUs {
+    background-image: url('img/bg-paper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  footer {
+    background-color: #d2b48c;
+    color: #fff;
+  }
+  .widgetheading {
+    color: #fff;
+  }
+  .scrollup {
+    background-color: #a98274;
+  }
+</style>
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 </head>
 <body>
-  <h1>Sweet Bakery</h1>
-  <p>Welcome to Sweet Bakery website</p>
+<div id="wrapper" class="home-page">
+  <header>
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Sweet Bakery" /></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="services.html">Produk</a></li>
+            <li><a href="biopang.html">Kemasan Biopang</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="banner">
+    <div id="main-slider" class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="img/slides/1.jpg" alt="" />
+          <div class="flex-caption container">
+            <h3>Roti Lembut & Ramah Lingkungan</h3>
+            <p>Nikmati kelezatan Sweet Bakery dengan kemasan inovatif Biopang.</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/slides/2.jpg" alt="" />
+          <div class="flex-caption container">
+            <h3>Kemasan Pintar Biopang</h3>
+            <p>Menjaga kualitas, mendeteksi kesegaran, dan menjaga bumi.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="txt-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="aligncenter">
+            <h1 class="aligncenter">Kenapa Pilih Sweet Bakery?</h1>
+            <p>Sweet Bakery dari PT Roti Nusantara menghadirkan berbagai jenis roti dengan bahan alami dan tinggi serat. Kami juga menggunakan kemasan inovatif Biopang yang aman, aktif, dan interaktif untuk memastikan kesegaran roti Anda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="features">
+          <div class="col-md-4 col-sm-6">
+            <div class="media service-box">
+              <div class="pull-left">
+                <img src="img/roti1.png" alt="Roti Tawar" />
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Roti Tawar</h4>
+                <p>Roti klasik kaya serat dengan komposisi gandum dan tepung terigu pilihan.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="media service-box">
+              <div class="pull-left">
+                <img src="img/roti2.png" alt="Roti Manis" />
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Roti Manis</h4>
+                <p>Dibuat dengan gula alami dan margarin mengandung antioksidan tocopherol.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="media service-box">
+              <div class="pull-left">
+                <img src="img/roti3.png" alt="Roti Isi" />
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Roti Isi</h4>
+                <p>Beragam isian lezat dengan kemasan Biopang yang menjaga cita rasa.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="widget">
+            <h5 class="widgetheading">Kontak Kami</h5>
+            <address>
+              <strong>PT Roti Nusantara</strong><br>
+              Malang 65145, Indonesia<br>
+              P-IRT No. 067987345-09
+            </address>
+            <p>
+              <i class="icon-envelope-alt"></i> info@sweetbakery.id<br>
+              <i class="icon-phone"></i> +62 812-3456-7890
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="widget">
+            <h5 class="widgetheading">Ikuti Kami</h5>
+            <ul class="social-network">
+              <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" title="TikTok"><i class="fa fa-music"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script>
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
